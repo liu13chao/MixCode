@@ -1,15 +1,19 @@
 package com.liuchao.mixcode;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
 
-public class HomeActivity extends Activity {
+import com.liuchao.mixcode.activity.BaseActivity;
+
+
+public class HomeActivity extends BaseActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
+
+
 	}
 
 	@Override
